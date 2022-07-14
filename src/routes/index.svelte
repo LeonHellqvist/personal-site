@@ -1,3 +1,6 @@
+<script>
+</script>
+
 <svelte:head>
 	<title>Leon Hellqvist</title>
 	<html lang="en" />
@@ -112,10 +115,10 @@
 			Competence
 		</h2>
 		<div
-			class="container w-4/6 lg:w-5/6 xl:w-4/6  flex flex-wrap justify-between items-center mx-auto"
+			class="container lg:w-5/6 xl:w-4/6 flex flex-wrap justify-center items-center mx-auto"
 		>
 			<div
-				class="mb-6 lg:w-1/4 xl:w-sm xl:mb-0 block p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100"
+				class="ml-5 mr-5 mb-6 lg:w-1/4 xl:w-sm xl:mb-0 block p-6 w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100"
 			>
 				<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Programming languages</h5>
 				<ol class="list-disc pl-4 font-normal text-gray-700">
@@ -129,7 +132,7 @@
 				</ol>
 			</div>
 			<div
-				class="mb-6 lg:w-1/3 xl:w-sm xl:mb-0 block p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100"
+				class="ml-5 mr-5 mb-6 lg:w-1/3 xl:w-sm xl:mb-0 block p-6 min-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100"
 			>
 				<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Most used technologies</h5>
 				<ol class="list-disc pl-4 font-normal text-gray-700">
@@ -155,7 +158,7 @@
 				</ol>
 			</div>
 			<div
-				class="block lg:w-1/4 xl:w-sm p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100"
+				class="ml-5 mr-5 block lg:w-1/4 xl:w-sm p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100"
 			>
 				<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Less used technologies</h5>
 				<ol class="list-disc pl-4 font-normal text-gray-700">
@@ -178,24 +181,63 @@
 		/></svg
 	>
 </section>
-<section class="w-screen bg-white lg:-mt-16 xl:-mt-32 pb-64">
-	<div class="container mx-auto">
+<section class="w-screen bg-white lg:-mt-16 xl:-mt-32">
+	<div class="container mx-auto -mt-1">
 		<h2
 			class="text-center font-mono font-semibold text-4xl xl:text-5xl text-black-800 xl:mt-[-50px] pb-10"
 		>
 			Experience
 		</h2>
-		<div class="flex flex-wrap justify-between items-center mx-auto">
+		<div class="flex flex-wrap justify-center items-center mx-auto">
 			<div
-				class="mb-6 xl:mb-0 block p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-xl shadow-green-700/30 hover:bg-gray-100"
+				class="ml-5 mr-5 mb-6 xl:mb-0 block p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-xl shadow-blue-500/20 hover:bg-gray-100"
 			>
-				<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">OpenMineBay</h5>
+				<h5 class="text-2xl font-bold tracking-tight text-gray-900">Unikum Tools</h5>
 				<p class="text-gray-700">
-					The past year I have been working on a marketplace that integrades directly with minecraft. It has a full web interface build with React (NextJS) and a NodeJS backend. It allows you to sell and buy items from other players and works on 100% vanilla servers!
-					(Soon public)
+					The past I have been working on, and recently finished a web browser extension. I made the
+					extension as a hobby project and to use for school. The extension adds bookmarks to
+					Unikum.net and is able to show both the schedule and food menu.
+					<br />
+					<a href="https://github.com/LeonHellqvist/unikum-tools" class="text-blue-500"
+						>View on Github</a
+					>
+				</p>
+			</div>
+			<div
+				class="ml-5 mr-5 mb-6 xl:mb-0 block p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-xl shadow-green-700/30 hover:bg-gray-100"
+			>
+				<h5 class="text-2xl font-bold tracking-tight text-gray-900">OpenMineBay</h5>
+				<p class="text-gray-700">
+					The past year I have been working on a marketplace that integrades directly with
+					Minecraft. It has a full web interface build with React (NextJS) and a NodeJS backend. It
+					allows you to sell and buy items from other players and works on 100% vanilla servers!
+					<br />
+					<a href="#" class="text-green-500">(Soon public)</a>
+				</p>
+			</div>
+			<div
+				class="ml-5 mr-5 mb-6 xl:mb-0 block p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-xl shadow-pink-700/30 hover:bg-gray-100"
+			>
+				<h5 class="text-2xl font-bold tracking-tight text-gray-900">Hair Salon</h5>
+				<p class="text-gray-700">
+					When looking for hair salons for myself I stumbled upon a really poorly designed website
+					from like 1999. I decided to make a new response website for them for free using React
+					(Gatsby) and Tailwind. They never replied to my mail tho :(
+					<br />
+					<a href="https://github.com/LeonHellqvist/salon" class="text-pink-500">View on Github</a>
 				</p>
 			</div>
 		</div>
+	</div>
+</section>
+<section>
+	<svg class="bg-white -mt-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#111827" fill-opacity="1" d="M0,128L48,133.3C96,139,192,149,288,138.7C384,128,480,96,576,90.7C672,85,768,107,864,138.7C960,171,1056,213,1152,192C1248,171,1344,85,1392,42.7L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+	<div class="container mx-auto lg:-mt-2 xl:-mt-44">
+		<h2
+			class="text-center text-white font-mono font-semibold text-4xl xl:text-5xl text-black-800 xl:mt-[-50px] pb-10"
+		>
+			Contact
+		</h2>
 	</div>
 </section>
 <footer class="p-4 bg-white shadow-2xl md:flex md:items-center md:justify-between md:p-6">
