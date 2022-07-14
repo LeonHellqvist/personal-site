@@ -1,18 +1,21 @@
-<nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-900">
+<svelte:head>
+	<title>Leon Hellqvist</title>
+	<html lang="en" />
+</svelte:head>
+
+<nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5">
 	<div class="container flex flex-wrap justify-between items-center mx-auto">
-		<span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
-			>Leon Hellqvist</span
-		>
+		<span class="self-center text-xl font-semibold whitespace-nowrap">Leon Hellqvist</span>
 		<div class="flex md:order-2">
 			<button
 				type="button"
-				class="text-white bg-yellow-600 hover:bg-yellow-700 focus:ring-4 focus:outline-none focus:ring-yellow-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-yellow-500 dark:hover:bg-yellow-600 dark:focus:ring-yellow-700"
+				class="text-white bg-red-600 hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0"
 				>Contact</button
 			>
 			<button
 				data-collapse-toggle="mobile-menu-4"
 				type="button"
-				class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+				class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
 				aria-controls="mobile-menu-4"
 				aria-expanded="false"
 			>
@@ -51,28 +54,28 @@
 				<li>
 					<a
 						href="#"
-						class="block py-2 pr-4 pl-3 text-white bg-yellow-500 rounded md:bg-transparent md:text-yellow-500 md:p-0 dark:text-white"
+						class="block py-2 pr-4 pl-3 text-white bg-red-500 rounded md:bg-transparent md:text-red-500 md:p-0"
 						aria-current="page">Home</a
 					>
 				</li>
 				<li>
 					<a
 						href="#"
-						class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-yellow-500 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-						>About</a
+						class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0"
+						>Competence</a
 					>
 				</li>
 				<li>
 					<a
 						href="#"
-						class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-yellow-500 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-						>Services</a
+						class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0"
+						>Experience</a
 					>
 				</li>
 				<li>
 					<a
 						href="#"
-						class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-yellow-500 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+						class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0"
 						>Contact</a
 					>
 				</li>
@@ -81,11 +84,137 @@
 	</div>
 </nav>
 <!-- End of Navbar -->
-<section>
-  <div class="ml-40 mt-40">
-    <h1 class="font-mono text-9xl text-yellow-500">Leon Hellqvist</h1>
-    <p class="font-mono text-4xl text-yellow-700">Full stack developer!</p>
-  </div>
-  <svg class="pt-32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#eab208" fill-opacity="1" d="M0,224L48,218.7C96,213,192,203,288,208C384,213,480,235,576,224C672,213,768,171,864,128C960,85,1056,43,1152,26.7C1248,11,1344,21,1392,26.7L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-
+<section class="screen-h">
+	<div class="pt-10 pb-24 lg:ml-16 lg:mt-16 xl:ml-40 xl:mt-40">
+		<h1 class="font-mono text-center lg:text-left text-5xl lg:text-8xl xl:text-9xl text-red-500">
+			Leon Hellqvist
+		</h1>
+		<p class="font-mono text-center lg:text-left text-4xl lg:text-4xl text-red-200 ml-3">
+			Full-stack developer
+		</p>
+		<p class="font-mono text-center lg:text-left text-2xl lg:text-3xl text-red-200 ml-3">
+			Currently 17 years old
+		</p>
+	</div>
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"
+		><path
+			fill="#EF4444"
+			fill-opacity="1"
+			d="M0,224L48,218.7C96,213,192,203,288,208C384,213,480,235,576,224C672,213,768,171,864,128C960,85,1056,43,1152,26.7C1248,11,1344,21,1392,26.7L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+		/></svg
+	>
 </section>
+<section class="bg-white mt-[-1px]">
+	<div class="bg-red-500">
+		<h2
+			class="text-center font-mono font-semibold text-4xl xl:text-5xl text-white xl:mt-[-50px] pb-10"
+		>
+			Competence
+		</h2>
+		<div
+			class="container w-4/6 lg:w-5/6 xl:w-4/6  flex flex-wrap justify-between items-center mx-auto"
+		>
+			<div
+				class="mb-6 lg:w-1/4 xl:w-sm xl:mb-0 block p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100"
+			>
+				<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Programming languages</h5>
+				<ol class="list-disc pl-4 font-normal text-gray-700">
+					<li>TypeScript</li>
+					<li>JavaScript</li>
+					<li>Python</li>
+					<li>C</li>
+					<li>C#</li>
+					<li>Java</li>
+					<li>Rust</li>
+				</ol>
+			</div>
+			<div
+				class="mb-6 lg:w-1/3 xl:w-sm xl:mb-0 block p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100"
+			>
+				<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Most used technologies</h5>
+				<ol class="list-disc pl-4 font-normal text-gray-700">
+					<li>
+						React
+						<ol class="list-disc pl-6">
+							<li>NextJS</li>
+							<li>Gatsby</li>
+							<li>Material UI</li>
+						</ol>
+					</li>
+					<li>HTML + CSS</li>
+					<li>Git</li>
+					<li>
+						Linux
+						<ol class="list-disc pl-6">
+							<li>Fedora</li>
+							<li>Debian</li>
+						</ol>
+					</li>
+					<li>MongoDB</li>
+					<li>NodeJS + Express</li>
+				</ol>
+			</div>
+			<div
+				class="block lg:w-1/4 xl:w-sm p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100"
+			>
+				<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Less used technologies</h5>
+				<ol class="list-disc pl-4 font-normal text-gray-700">
+					<li>Tailwind</li>
+					<li>Svelte</li>
+					<li>MySQL</li>
+					<li>Vue</li>
+					<li>Three.js</li>
+					<li>Discord.js</li>
+					<li>Blender</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+	<svg class="mt-[-2px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"
+		><path
+			fill="#EF4444"
+			fill-opacity="1"
+			d="M0,128L48,144C96,160,192,192,288,197.3C384,203,480,181,576,154.7C672,128,768,96,864,85.3C960,75,1056,85,1152,96C1248,107,1344,117,1392,122.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+		/></svg
+	>
+</section>
+<section class="w-screen bg-white lg:-mt-16 xl:-mt-32 pb-64">
+	<div class="container mx-auto">
+		<h2
+			class="text-center font-mono font-semibold text-4xl xl:text-5xl text-black-800 xl:mt-[-50px] pb-10"
+		>
+			Experience
+		</h2>
+		<div class="flex flex-wrap justify-between items-center mx-auto">
+			<div
+				class="mb-6 xl:mb-0 block p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-xl shadow-green-700/30 hover:bg-gray-100"
+			>
+				<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">OpenMineBay</h5>
+				<p class="text-gray-700">
+					The past year I have been working on a marketplace that integrades directly with minecraft. It has a full web interface build with React (NextJS) and a NodeJS backend. It allows you to sell and buy items from other players and works on 100% vanilla servers!
+					(Soon public)
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+<footer class="p-4 bg-white shadow-2xl md:flex md:items-center md:justify-between md:p-6">
+	<span class="text-sm text-gray-500 sm:text-center"
+		>© 2022 <a href="https://hellqvist.dev/" class="hover:underline">Leon Hellqvist</a>. All Rights
+		Reserved.
+	</span>
+	<ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 sm:mt-0">
+		<li>
+			<a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
+		</li>
+		<li>
+			<a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+		</li>
+		<li>
+			<a href="#" class="mr-4 hover:underline md:mr-6">Licensing</a>
+		</li>
+		<li>
+			<a href="#" class="hover:underline">Contact</a>
+		</li>
+	</ul>
+</footer>
