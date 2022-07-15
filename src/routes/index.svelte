@@ -78,9 +78,9 @@
         </button>
       </div>
       <div class="flex-1 flex items-center justify-end mr-6 sm:mr-0 sm:items-stretch sm:justify-start">
-        <div class="flex-shrink-0 flex items-center">
-          <img class="block lg:hidden h-8 w-auto" src="icon.png" alt="Small Logo">
-          <img class="hidden lg:block h-8 w-auto" src="icon.png" alt="Large Logo">
+        <div class="flex-shrink-0 flex items-center fade-in">
+          <img class="block lg:hidden h-8 w-8" src="icon.png" alt="Small Logo">
+          <img class="hidden lg:block h-8 w-8" src="icon.png" alt="Large Logo">
         </div>
         <div class="hidden sm:block sm:ml-6">
           <div class="flex space-x-4">
@@ -240,7 +240,7 @@
 					Minecraft. It has a full web interface build with React (NextJS) and a NodeJS backend. It
 					allows you to sell and buy items from other players and works on 100% vanilla servers!
 					<br />
-					<a href="#" class="text-green-700">(Soon public)</a>
+					<a href="https://github.com/LeonHellqvist/OpenMineBay" class="text-green-700">(Soon public)</a>
 				</p>
 			</div>
 			<div
@@ -274,10 +274,10 @@
 						Follow me on Github
 					</button>
 				</a>
-				<a href="mailto:leon@leonhellqvist.com">
+				<a href="mailto:leon@hellqvist.dev">
 					<button type="button" class="text-white bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 mr-2 mb-2">
 						<svg class="mr-2 -ml-1 w-4 h-4" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z"></path></svg>
-						leon@leonhellqvist.com
+						leon@hellqvist.dev
 					</button>
 				</a>
 				<button type="button" class="text-white bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 mr-2 mb-2">
