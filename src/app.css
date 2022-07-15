@@ -6,4 +6,5 @@
 html {
   background-color: #111827;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
