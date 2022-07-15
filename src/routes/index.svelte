@@ -115,11 +115,11 @@
 <!-- End of Navbar -->
 <section class="screen-h" id="home">
 	<div class="pt-20 pb-24 lg:ml-16 lg:mt-16 xl:ml-40 xl:mt-40 flex-col justify-center">
-		<div class="mr-4 sm:ml-0 sm:mr-0">
-			<h1 class="font-mono text-center lg:text-left text-5xl lg:text-8xl xl:text-9xl text-red-500">
+		<div>
+			<h1 class="font-mono text-center lg:text-left text-5xl lg:text-8xl xl:text-9xl px-2 sm:px-0 text-red-500">
 				Leon Hellqvist
 			</h1>
-			<p class="font-mono text-center lg:text-left text-4xl lg:text-4xl text-red-200 sm:ml-3">
+			<p class="font-mono text-center lg:text-left text-4xl lg:text-4xl text-red-200 px-2 sm:px-0 sm:ml-3">
 				Full-stack developer
 			</p>
 			<p class="font-mono text-center lg:text-left text-2xl lg:text-3xl text-red-200 sm:ml-3">
